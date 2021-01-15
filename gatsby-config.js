@@ -7,6 +7,7 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         `gatsby-transformer-remark`,
+        `gatsby-plugin-sass`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -14,10 +15,7 @@ module.exports = {
                 path: `${__dirname}/src/pages`
             }
         },
-        {
-            resolve: `gatsby-plugin-sass`,
-            options: {}
-        },
+        
         {
             resolve: `gatsby-remark-page-creator`,
             options: {}
